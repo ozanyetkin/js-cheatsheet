@@ -79,3 +79,18 @@ fahrenheit = Math.floor(fahrenheit)
 console.log(`The temperature is ${fahrenheit} degrees fahrenheit.`);
 // Run your program to see your results!
 kelvin = prompt('What is the Kelvin temperature today?');
+
+// Dog Years
+var myAge = 29;
+var earlyYears = 2;
+
+earlyYears *= 10.5;
+
+var laterYears = myAge - 2;
+
+laterYears *= 4;
+
+var myAgeInDogYears = earlyYears + laterYears;
+var myName = 'Yetkin'.toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
